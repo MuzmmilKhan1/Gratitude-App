@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.RegLog{
+    margin: 5% auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    border: 1px solid rgb(196, 196, 196);
+    color: white;
+}
+.RegLog h3, label{
+    padding: 10px;
+}
+.form{
+    text-align: left;
+    padding: 10px;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+}
+.btn{
+ background-color: rgb(23, 211, 26);
+ color: white;
+ padding: 5px;
+ margin: 5px;
+}
+.a{
+    color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.symbol{
+    margin-left: -5%;
+    display: inline;
+    vertical-align: middle;
+    color: black;
+}
+@media screen and (max-width: 1205px) {
+    .symbol{
+        margin-left: -8%;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .RegLog{
+        width: 60%;
+    }
+}

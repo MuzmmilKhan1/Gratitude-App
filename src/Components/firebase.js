@@ -7,13 +7,7 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCRcFekpgguotLqN6acFLnu6HOVuupdNFM",
-  authDomain: "gratitude-app-e1ca6.firebaseapp.com",
-  projectId: "gratitude-app-e1ca6",
-  storageBucket: "gratitude-app-e1ca6.appspot.com",
-  messagingSenderId: "109285057949",
-  appId: "1:109285057949:web:579062c81f37ecbfd13b74",
-  measurementId: "G-1SR32YWTG6"
+  // Firebase Config
 };
 
 
